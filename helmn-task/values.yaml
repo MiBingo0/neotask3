@@ -1,0 +1,12 @@
+replicaCount: 1
+
+image:
+  repository: mibingo/maveneo
+  tag: latest
+  pullPolicy: IfNotPresent
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
